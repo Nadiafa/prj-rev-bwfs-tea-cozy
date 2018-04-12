@@ -1,0 +1,147 @@
+body, header {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  margin: 0 auto;
+  padding: 0;
+}
+
+/*HEADER*/
+.header {
+  border-bottom: 1px solid seashell;
+  background-color: inherit;
+  position: fixed;
+  z-index: 0;
+  top: 0px;
+  height: 69px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  margin: 0 10px;
+  height: 50px;
+}
+nav {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 10px;
+}
+nav a {
+  color: seashell;
+  margin-left: 20px;
+}
+
+/*MAIN CONTENT*/
+  /* SECTION HEADINGS*/
+h2{
+  font-size: 1.5em;
+  padding-top: 10px;
+  text-align: center;
+}
+.top-heading h2 {
+  margin-top: 300px;
+
+  background-color: black;
+}
+h4, h5 {
+  text-align: center;
+  margin-bottom: 0;
+  margin-top: 15px;
+  padding-bottom: 10px;
+}
+
+  /*MISSION*/
+.main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.mission {
+  background-image: url("../images/mission-background.jpeg");
+  width: 1200px;
+  height: 700px;
+  margin-top: 70px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+.top-heading {
+  background-color: black;
+}
+
+  /*TEA OF THE MONTH*/
+.tea {
+  width: 1000px;
+}
+.tea h2 {
+  margin-top: 70px;
+}
+.products {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+}
+.item img {
+  width: 300px;
+  height: 200px;
+}
+.item span {
+  margin-top: 10px;
+}
+
+  /*LOCATIONS*/
+.locations {
+  background-image: url("../images/locations-background.jpeg");
+  width: 1200px;
+  height: 500px;
+  margin: 70px 40px;
+}
+.location {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.address {
+  background-color: black;
+  width: 300px;
+  height: 300px;
+  margin: auto 40px;
+  text-align: center;
+  opacity: 1;
+}
+.locations .headings h2 {
+  padding-top: 30px;
+}
+.address p {
+  padding-top: 20px;
+}
+
+/*CONTACT*/
+.contact {
+  height: 200px;
+}
+.contactDetails span {
+  display: block;
+  text-align: center;
+  margin-bottom: 40px;
+}
+.bottom-heading {
+  position: relative;
+  bottom: 30px;
+}
+
+/*FOOTER*/
+.copyright {
+  margin-left: 20px;
+}
